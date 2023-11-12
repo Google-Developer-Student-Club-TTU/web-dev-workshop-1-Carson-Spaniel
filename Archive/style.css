@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Reset some default styles */
+*{
+  color: #FFF;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    text-align: center;
+    background-color: rgba(255,255,255,0.15);
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Center the container */
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 1);
+    border: solid 2px #333;
+    border-radius: 40px;
+    margin-top: 20vh;
+    text-align: center;
+    background-color: #000;
+    z-index: -1;
+  }
+  
+  /* Style the planet image */
+  #image-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the planet name */
+  #planet-name {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* Style the planet mass */
+  #planet-mass {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Style the rings and description */
+  #rings, #description {
+    margin: 10px 0;
+  }
+  
+  /* Style the button container */
+  .btn-container {
+    text-align: center;
+    margin-top: 20px;
+    z-index: 10;
+  }
+  
+  /* Style the previous and next buttons */
+  .btn {
+    font-size: 24px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for buttons */
+  .btn:hover {
+    background-color: white;
+    color:#333;
+    border: solid 1px #333;
+  }
